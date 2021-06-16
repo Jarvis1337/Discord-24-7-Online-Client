@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def main():
-    return "Subscribe to Mr Furious https://youtube.com/c/MrFurious9"
+    return "https://github.com/Jack-ff-31"
 
 def run():
     app.run(host="0.0.0.0", port=8080)
