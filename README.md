@@ -1,4 +1,4 @@
-[![Deploy](https://repl.it/badge/github/Yours-Jarvis/Discord-24-7-Online-Client)](https://replit.com/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/)
 
 ----
 
@@ -38,6 +38,11 @@ npm install
 ```
 Type (pip install) in console
 ```
+**For repl.it users** -
+
+**Tap on this --**
+
+[![Use on Repl.it](https://repl.it/badge/github/Itz-Iconic-ff-31/Itech_2.0)](https://repl.it/)
 
 ----
 
