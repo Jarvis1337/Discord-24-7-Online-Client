@@ -29,7 +29,7 @@
 **For PC users using VS Code** -
 
 ```
-git clone https://github.com/Yours-Jarvis/Discord-Custom-Bot
+git clone https://github.com/Yours-Jarvis/Discord-24-7-Online-Client
 npm install
 ```
 
