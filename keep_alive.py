@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def main():
-    return "🚀 Please follow on GitHub to stay tuned with us for more Exciting future Updates like this. | © 2021 — Made By Your's Jarvis #2431 with ♥"
+    return '<meta http-equiv="refresh" content="0; URL=https://yours-jarvis.github.io/Yours-Jarvis"/>
 
 def run():
     app.run(host="0.0.0.0", port=8080)
