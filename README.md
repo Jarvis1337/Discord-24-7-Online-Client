@@ -29,20 +29,20 @@
 **For PC users using VS Code** -
 
 ```
-git clone https://github.com/Yours-Jarvis/Discord-24-7-Online-Client
-npm install
+git clone git:https://github.com/Yours-Jarvis/Discord-24-7-Online-Client -b jb_2.5
+pip install
 ```
 
 ***After installation finishes you can use `pip install` to start the Script.***
 
 ```
-Type (pip install) in console
+Type (python3 main.py) in console
 ```
 **For repl.it users** -
 
 **Tap on this --**
 
-[![Use on Repl.it](https://repl.it/badge/github/Itz-Iconic-ff-31/Itech_2.0)](https://repl.it/)
+[![Use on Repl.it](https://repl.it/badge/github/Yours-Jarvis)](https://repl.it/)
 
 ----
 
