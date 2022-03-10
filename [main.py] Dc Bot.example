@@ -4,15 +4,14 @@ import keep_alive
 
 from discord.ext import commands
 
-client = commands.Bot(command_prefix='YJ!', self_bot=True)
+client = commands.Bot(command_prefix='YJ!')
 
-# <!-- Import Your Self Bot Commands <3 --> 
+# <!-- Import Your Bot Module/Commands <3 -->  
 
 async def on_ready():
-  client.remove_command('help')
   await client.change_presence(status=discord.Status.online, activity=discord.Game("Your's Jarvis"))
 
 keep_alive.keep_alive()
-client.run(os.getenv("TOKEN"), bot=False)
+client.run(os.getenv("TOKEN"), bot=True) # if the line does't work so replace this line of code || client.run(os.getenv("TOKEN") ||
 
 ## <!-- 🚀 Please follow on GitHub to stay tuned with us for more Exciting future Updates like this. | © 2021 — Made By Your's Jarvis #2431 with ♥ -->
