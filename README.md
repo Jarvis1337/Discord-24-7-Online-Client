@@ -36,7 +36,7 @@ client.run(os.getenv("TOKEN"), bot=False)
 **DO NOT GIVE YOUR DISCORD TOKEN TO OTHERS!**
   
 - ***Use [Uptime Robot](https://uptimerobot.com/) to make your repl online 24/7.***
-- ***And Please Consider the Reading, [Setup to Uptime Robot.](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client#setup-to-uptime-robot-----)***
+- ***And Please Consider the Reading, [Setup to Uptime Robot.]()***
 
 **IF YOU HAVE ANY DOUBTS REGARDING THIS, FEEL FREE TO [CONTACT ME!](https://github.com/Yours-Jarvis/)**
 
