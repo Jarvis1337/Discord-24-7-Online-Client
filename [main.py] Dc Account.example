@@ -4,13 +4,14 @@ import keep_alive
 
 from discord.ext import commands
 
-client = commands.Bot(command_prefix='YJ!', self_bot=True)
+client = commands.Bot(command_prefix='..', self_bot=True)
 
 # <!-- Import Your Self Bot Commands <3 --> 
 
+@client.event
 async def on_ready():
-  client.remove_command('help')
-  await client.change_presence(status=discord.Status.online, activity=discord.Game("Your's Jarvis"))
+    activity = discord.Activity(type=discord.ActivityType.listening, name="Yours-Jarvis on Github") # Activity Types :- listening, watching, streaming
+    await client.change_presence(status=discord.Status.dnd, activity=activity)
 
 keep_alive.keep_alive()
 client.run(os.getenv("TOKEN"), bot=False)
