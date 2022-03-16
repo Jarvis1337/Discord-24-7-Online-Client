@@ -1,7 +1,7 @@
 [![Github Profile](https://img.shields.io/badge/Github-Yours_Jarvis-blueviolet?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/)
 [![Library](https://img.shields.io/badge/Library-Python_v3.8-orange)](https://www.python.org/) 
 [![Python](https://img.shields.io/badge/Python_Library-discord.py_v1.7.3-blue?style=flat&logo=python&logoColor=white)](https://discordpy.readthedocs.io/en/stable/) 
-[![Github repo version](https://img.shields.io/badge/Discord_Online_Client-v3.0.1-brightgreen?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v3.0.1) 
+[![Github repo version](https://img.shields.io/badge/Discord_Online_Client-v3.1.0-brightgreen?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v3.1.0) 
 [![Github Releases](https://img.shields.io/badge/Github-Releases-ff0000?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases) 
 [![GitHub repo size](https://img.shields.io/github/repo-size/Yours-Jarvis/Discord-24-7-Online-Client?color=00ffff&label=Repository%20Size&logo=github)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/)
 [![platform replit](https://img.shields.io/badge/Platform-Replit-000000?style=flat&logo=replit&logoColor=white)](https://replit.com/)
@@ -26,10 +26,12 @@ import discord
 import os
 from discord.ext import commands
 
-client = commands.Bot(command_prefix='YJ!', self_bot=True, help_command=None)
+client = commands.Bot(command_prefix='..', self_bot=True, help_command=None)
 
+@client.event
 async def on_ready():
-  await client.change_presence(status=discord.Status.online, activity=discord.Game("Your's Jarvis"))
+    activity = discord.Activity(type=discord.ActivityType.listening, name="Yours-Jarvis on Github") # Activity Types :- listening, watching, streaming, playing
+    await client.change_presence(status=discord.Status.dnd, activity=activity)
 
 client.run(os.getenv("TOKEN"), bot=False)
 ```
@@ -69,13 +71,14 @@ import keep_alive
 
 from discord.ext import commands
 
-client = commands.Bot(command_prefix='YJ!', self_bot=True)
+client = commands.Bot(command_prefix='..', self_bot=True, help_command=None)
 
 # <!-- Import Your Self Bot Commands <3 --> 
 
+@client.event
 async def on_ready():
-  client.remove_command('help')
-  await client.change_presence(status=discord.Status.online, activity=discord.Game("Your's Jarvis"))
+    activity = discord.Activity(type=discord.ActivityType.listening, name="Yours-Jarvis on Github") # Activity Types :- listening, watching, streaming, playing
+    await client.change_presence(status=discord.Status.dnd, activity=activity)
 
 keep_alive.keep_alive()
 client.run(os.getenv("TOKEN"), bot=False)
@@ -91,12 +94,14 @@ import keep_alive
 
 from discord.ext import commands
 
-client = commands.Bot(command_prefix='YJ!')
+client = commands.Bot(command_prefix='..')
 
-# <!-- Import Your Bot Module/Commands <3 -->  
+# <!-- Import Your Bot Module/Commands <3 -->
 
+@client.event
 async def on_ready():
-  await client.change_presence(status=discord.Status.online, activity=discord.Game("Your's Jarvis"))
+    activity = discord.Activity(type=discord.ActivityType.listening, name="Yours-Jarvis on Github") # Activity Types :- listening, watching, streaming, playing
+    await client.change_presence(status=discord.Status.dnd, activity=activity)
 
 keep_alive.keep_alive()
 client.run(os.getenv("TOKEN"), bot=True) # if the line does't work so replace this line of code || client.run(os.getenv("TOKEN") ||
@@ -118,11 +123,11 @@ client.run(os.getenv("TOKEN"), bot=True) # if the line does't work so replace th
 
 - ***Current Version:***
   
-  [![Github version](https://img.shields.io/badge/Version-3.0.1-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v3.0.1)
+  [![Github version](https://img.shields.io/badge/Version-3.1.0-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v3.1.0)
    
 - ***Previous Version:***
 
-  [![Github Releases](https://img.shields.io/badge/Github-Releases-ff0000?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases) [![Github version](https://img.shields.io/badge/Version-2.1.0-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v2.1.0) [![Github version](https://img.shields.io/badge/Version-2.0.1-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v2.0.1) [![Github version](https://img.shields.io/badge/Version-1.0.1-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v1.0.1)
+  [![Github Releases](https://img.shields.io/badge/Github-Releases-ff0000?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases) [![Github version](https://img.shields.io/badge/Version-3.0.1-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v3.0.1) [![Github version](https://img.shields.io/badge/Version-2.1.0-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v2.1.0) [![Github version](https://img.shields.io/badge/Version-2.0.1-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v2.0.1) [![Github version](https://img.shields.io/badge/Version-1.0.1-success?style=flat&logo=github&logoColor=white)](https://github.com/Yours-Jarvis/Discord-24-7-Online-Client/releases/tag/v1.0.1)
 ----
 
 > *<h4 align="center">⭐ Feel free to Star the Repository if this helped you!</h4>*
