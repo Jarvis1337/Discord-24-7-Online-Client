@@ -43,14 +43,12 @@ client.run(os.getenv("TOKEN"), bot=False)
 **IF YOU HAVE ANY DOUBTS REGARDING THIS, FEEL FREE TO [CONTACT ME!](https://github.com/Yours-Jarvis/)**
 
 - ***You Can Find Me Here: ----***
-- ***Discord and Instagram:***
+- ***Discord:***
 
  [![Discord](https://img.shields.io/badge/Discord-Add_to_Jarvis-blueviolet?style=flat&logo=discord&logoColor=white)](https://discord.com/users/899961311771897877)
  [![Discord](https://img.shields.io/badge/Discord-Server_1-brightgreen?style=flat&logo=discord&logoColor=white)](https://discord.gg/kVKz4utJ9G)
  [![Discord](https://img.shields.io/badge/Discord-Server_2-brightgreen?style=flat&logo=discord&logoColor=white)](https://discord.gg/qeQ3VStAQ6)
  [![Discord](https://img.shields.io/badge/Discord-Server_3-brightgreen?style=flat&logo=discord&logoColor=white)](https://discord.gg/RrABUqmDUF)
-
- [![Instagram](https://img.shields.io/badge/Instagram-Your's_Jarvis-ff0000?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/_alpesh_01_x_yj/)
 
 **For repl.it users** -
 - **Tap on this --**
